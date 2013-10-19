@@ -1,0 +1,39 @@
+
+
+<%= simple_form_for(@user) do |f| %>
+  <%= f.error_notification %>
+ <div> 
+    <div class='row'>
+      <div id='fname' class="large-6 columns">
+         <%= f.input :first_name, label:'' ,:placeholder => '* First Name'  %>
+         
+      </div>   
+      <div id='lname' class="large-6 columns">
+        <%= f.input :last_name,label: '' ,:placeholder => '* Last Name' %><br/>
+      </div>
+    </div>
+    <div class='row'>
+      <div id='email' class="large-12 columns">
+        <%= f.input :email, :placeholder => '* Email Address', label: '' %><br/>
+      </div>
+    </div>
+    <div class='row'>
+      <div id='passw' class="large-12 columns">
+          <%= f.password_field :password_digest, :placeholder => '* Password' %><br/>
+      </div>
+    </div>
+    <div class='row'>
+     <%= f.error :base %>
+    </div>
+    <div class='row'>
+      <div id='subz' class="large-4 columns">
+    <%= f.submit "Submit", :class => 'button radius',  :style => 'background: #fc0898;' %>
+     <p id='trial', style='font-size:12px; color:#fc0898; margin-left:3px; margin-top:-13px;'> 7 Day Free Trial</p>
+     </div>
+    </div>
+  </div>
+
+<% end %>
+<div class='large-5 large-centered columns'>
+
+</div>

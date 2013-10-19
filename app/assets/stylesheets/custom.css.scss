@@ -1,0 +1,255 @@
+/* universal */
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+input{
+
+	border:none;
+}
+
+.landing{
+	background:#E4E8EB;
+	
+}
+
+/*Header*/
+
+
+
+header img{
+	height:73px;
+	margin-top:20px;
+	padding-bottom:10px;
+	width:283px;
+}
+
+.toplist li{
+  list-style:none;
+
+}
+
+#signin{
+
+	margin-top:10px;
+}
+
+#sign{
+
+	color:#DF0B93;
+	
+
+}
+
+#signtop{
+	float:right;
+	margin-right:-10px;
+	padding-top:40px;
+}
+
+#wlogo{
+
+width:273px;
+	
+}
+
+/* Footer */
+
+footer{
+  bottom:0;
+  height:100px;
+  margin-top:20px;
+
+}
+
+footer a{
+    color:grey;
+	font-size:12px;
+
+}
+
+footer ul{
+
+	margin-top:-2px;
+}
+
+.footer{
+
+  bottom:0;
+  height:20px;
+  margin-top:20px;
+}
+
+.footlinx{
+
+	list-style:none;
+}
+
+#linx li a{
+
+	color:grey;
+}
+
+#contact{
+
+	color:#DF0B93;
+	margin-left:30px;
+	margin-right:10px;
+}
+
+#cc{
+
+	margin-top:3px;
+}
+
+#privacy{
+
+	margin-left:10px;
+	margin-right:10px;
+}
+
+
+/*Content*/
+
+.landtext{
+
+	}
+
+#landtext {
+	border-bottom:2px solid #DF0B93;
+	
+	margin-bottom:10px;
+	margin-top:60px;
+	padding-bottom:20px;
+	padding-left:10px;
+}
+
+#landtext p{
+	
+	color:grey;
+	font-size:26px;
+	margin-top:-6px;
+	margin-left:10px;
+}
+
+#topt{
+	text-align:center;
+	
+	width:92%;
+}
+
+#topt2 {
+	margin-top:-6px;
+}
+
+
+#topz{
+
+text-align:center;
+	margin-top:10px;
+}
+
+#woform{
+	margin-bottom:-21px;
+	margin-top:20px;
+}
+
+#req{
+
+	color:#DF0B93;
+	font-weight:bold;
+	
+}
+
+#wopic img{
+
+	margin-top:90px;
+}
+
+#wopic2 img{
+
+	margin-top:110px;
+}
+
+#trial p{
+
+	color:#DF0B93;
+	font-size:11px;
+}
+
+/*Form Content*/
+
+
+form input{
+
+	
+}
+
+
+
+#fname{
+    
+}
+
+#lname{
+
+
+}
+
+#email{
+
+
+}
+
+#passw{
+
+}
+
+#subz{
+
+
+}
+/*Privacy Policy*/
+
+.privatepage{
+	margin-top:120px;
+	background:#E4E8EB;
+}
+
+.private1 li{
+
+	margin-left:20px;
+}
+
+#myModal{
+
+	margin-left:1px;
+
+	width:550px;
+}
+
+#error_explanation{
+
+float:left;
+
+}
+
+#error_explanation h2{
+
+font-size:18px;
+	
+}
+
+#error_explanation li{
+
+font-size:14px;
+margin-left:25px;	
+}
+
+abbr{
+
+color:#E4E8EB;
+
+}
